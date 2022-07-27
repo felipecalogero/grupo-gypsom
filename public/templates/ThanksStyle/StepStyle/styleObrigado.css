@@ -1,0 +1,120 @@
+/*
+ _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+|     |  |  |   __|_   _|     |     |     |__   |   __|
+|   --|  |  |__   | | | |  |  | | | |-   -|   __|   __|
+|_____|_____|_____| |_| |_____|_|_|_|_____|_____|_____|                                                   
+                                                                        
+*/
+
+:root {
+    --primary-color: #BE1D37;
+    --text-color: #000000;
+    --background: #ffffff;
+}
+
+/*
+ _____ _____ _____ _____ __    
+|   __|   __| __  |  _  |  |   
+|  |  |   __|    -|     |  |__ 
+|_____|_____|__|__|__|__|_____|
+                               
+*/
+
+/* Body e HTML*/
+html, body {
+    background-color: var(--background);
+    overflow-x: hidden;
+}
+
+/*
+ _____ _____ _____ ____  _____ _____ 
+|  |  |   __|  _  |    \|   __| __  |
+|     |   __|     |  |  |   __|    -|
+|__|__|_____|__|__|____/|_____|__|__|                                                                                   
+                                             
+*/
+
+.topSection{
+    background-color: #BE1D37;
+    padding: 40vh 10px 0px 10px;
+    margin-top: -40vh;
+    border-radius: 30px;
+    text-align: center;
+    transform: rotate(-10deg);
+    -webkit-box-shadow: 0px 7px 28px 13px rgba(0,0,0,0.123); 
+    box-shadow: 0px 7px 28px 13px rgba(0, 0, 0, 0.123);
+}
+
+.iconeTitulo{
+    font-size: 180px;
+    color: var(--background);
+}
+
+/*
+ _____ _____ _____ _____ _____ _____ 
+|  _  |  _  |   __|   __|     |   __|
+|   __|     |__   |__   |  |  |__   |
+|__|  |__|__|_____|_____|_____|_____|
+                                     
+*/
+
+.passosSection{
+    margin-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.titleContent{
+    color: var(--primary-color);
+    font-family: 'FS Clerkenwell Bold';
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+}
+
+.textContent{
+    color: var(--text-color);
+    font-family: 'GothamPro';
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cardObrigadoPasso{
+    border: 3px solid var(--primary-color);
+    background-color: #ff000013;
+    border-radius: 15px;
+    padding: 20px 20px 10px 20px;
+    -webkit-box-shadow: 0px 7px 28px 13px rgba(0, 0, 0, 0.068); 
+    box-shadow: 0px 7px 28px 13px rgba(0, 0, 0, 0.068);
+}
+
+.titleCardPasso{
+    color: var(--primary-color);
+    font-family: 'FS Clerkenwell Bold';
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.textCardPasso{
+    color: var(--text-color);
+    font-family: 'GothamPro';
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 1;
+}
+
+/*
+ _____ _____ _____ 
+|  _  |  |  |     |
+|     |    -| | | |
+|__|__|__|__|_|_|_|              
+ _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+|  _  |   __| __  |   __|     | __  |     |     |  _  |
+|   __|   __|    -|   __|  |  |    -| | | | | | |     |
+|__|  |_____|__|__|__|  |_____|__|__|_|_|_|_|_|_|__|__|
+
+*/

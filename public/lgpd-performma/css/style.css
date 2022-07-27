@@ -1,0 +1,100 @@
+/* =======================Barra de cookies ======================= */
+.accordion-item {
+	margin-top: 30px;
+}
+.accordion-button {
+	border: none;
+	padding: 0px;
+}
+.accordion-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cookie-alert {
+	position: fixed;
+	bottom: 100px;
+	left: 20px;
+	width: 40px;
+	height: 40px;
+	z-index: 1000;
+	opacity: 0.2;
+
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
+	cursor: pointer;
+}
+
+.cookie-alert:hover {
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+.form-switch * {
+	cursor: pointer;
+}
+
+#footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	position: static;
+	bottom: 0px;
+	left: 0px;
+}
+
+header h1 {
+	text-align: center;
+}
+body main {
+	display: flex;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	justify-content: center;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.box-cookies.hide {
+	display: none !important;
+}
+
+.box-cookies {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	position: fixed;
+	margin: 0px;
+	width: 100%;
+	z-index: 998;
+	bottom: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 0px;
+	opacity: 0.9;
+}
+
+.box-cookies .btn-cookies {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	.box-cookies {
+		flex-direction: column;
+	}
+}
+
+.modal-footer-content {
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}

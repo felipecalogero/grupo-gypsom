@@ -1,0 +1,174 @@
+/*
+ _____ _____ _____ ____  _____ _____ 
+|  |  |   __|  _  |    \|   __| __  |
+|     |   __|     |  |  |   __|    -|
+|__|__|_____|__|__|____/|_____|__|__|
+                                             
+*/
+
+.videoHeader{
+    padding: 30px;
+    background: linear-gradient(75deg, #D7A96B, #BA8C52);
+    background-size: 400% 400%;
+    -webkit-animation: gradbow 3s ease infinite;
+    animation: gradbow 3s ease infinite;
+    -webkit-box-shadow: 0px 0px 27px -5px rgba(0,0,0,0.7); 
+    box-shadow: 0px 0px 27px -5px rgba(0,0,0,0.7);
+}
+
+.videoFrame{
+    margin-bottom: -15%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 27px -5px rgba(0,0,0,0.7); 
+    box-shadow: 0px 0px 27px -5px rgba(0,0,0,0.7);
+}
+
+@-webkit-keyframes gradbow {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+}
+
+@media (max-width: 768px) {
+    .videoHeader{
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .videoFrame{
+        margin-bottom: -25%;
+    }
+}
+
+/*
+ _____ _____ _____ _____ _____ 
+|     |   | |   __|     |   __|
+|-   -| | | |   __|  |  |__   |
+|_____|_|___|__|  |_____|_____|
+
+*/
+
+.classTag{
+    margin-top: 15%;
+    font-family: Gilroy-bold;
+    line-height: 1;
+    color: #ffffff;
+    font-size: 15px;
+    background: linear-gradient(75deg, #D7A96B, #BA8C52);
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.className{
+    font-family: Gilroy-bold;
+    line-height: 1;
+    color: #BA8C52;
+    font-size: 25px;
+    border-left: 4px solid;
+    padding-left: 10px;
+    padding: 14px;
+    border-radius: 3px;
+}
+
+.classDesc{
+    font-family: Gilroy-light;
+    line-height: 1;
+    color: #b4b4b4;
+    font-size: 18px;
+}
+
+.btnSingleClass{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 0px;
+    font-family: Gilroy-bold;
+    background: linear-gradient(75deg, #D7A96B, #BA8C52);
+    background-size: 400% 400%;
+    border-style: none;
+    -webkit-box-shadow: 0px 0px 27px -5px rgba(0,0,0,0.7); 
+    box-shadow: 0px 0px 27px -5px rgba(0,0,0,0.7);
+    animation: gradbow 3s ease infinite;
+    line-height: 1;
+    transition: all ease 0.5s;
+}
+
+.btnSingleClass:hover{
+    background: linear-gradient(75deg, #c78c35, #d19b26);
+    background-size: 400% 400%;
+    animation: gradbow2 1s ease infinite;
+}
+
+@-webkit-keyframes gradbow2 {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+}
+
+.tituloComments{
+    margin-top: 80px;
+    background: linear-gradient(75deg, #ffffff, #d4d4d4);
+    padding: 15px 20px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    z-index: 2;
+}
+
+.subComments{
+    background-color: white;
+    -webkit-box-shadow: inset 0px 0px 27px -5px rgba(0,0,0,0.7); 
+    box-shadow: inset 0px 0px 27px -5px rgba(0,0,0,0.7);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.classTitleComment{
+    font-family: Gilroy-bold;
+    line-height: 1;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom:8;
+}
+
+.classDescComment{
+    font-family: Gilroy-light;
+    line-height: 1;
+    color: #424242;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .classTag{
+        margin-top: 31%;
+    }
+
+    .tituloComments{
+        margin-top: 50px;
+    }
+}
+
+/*
+ _____ _____ _____ _____ __    
+|   __|   __| __  |  _  |  |   
+|  |  |   __|    -|     |  |__ 
+|_____|_____|__|__|__|__|_____|
+
+*/
+
+body{
+    background-color: rgb(32, 32, 32) !important;
+}
+
+/*
+ _____ _____ _____ 
+|  _  |  |  |     |
+|     |    -| | | |
+|__|__|__|__|_|_|_|              
+ _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+|  _  |   __| __  |   __|     | __  |     |     |  _  |
+|   __|   __|    -|   __|  |  |    -| | | | | | |     |
+|__|  |_____|__|__|__|  |_____|__|__|_|_|_|_|_|_|__|__|
+
+*/

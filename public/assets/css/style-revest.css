@@ -1,0 +1,54 @@
+section{
+    background-image: url("../img/revest/borda.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 2%;
+        min-height: 100vh;
+}
+
+p{
+    font-size: 20px;
+}
+
+#secPrincipal{
+    position: relative;
+}
+
+#secPrincipal .contentImage{
+
+    padding: 2%;
+}
+
+#secPrincipal .contentInfos {
+    padding-top: 4%;
+}
+
+#secPrincipal .divTrabalhamos {
+    position: absolute;
+    bottom: 10%;
+}
+
+#secPrincipal img{
+    width: 100%;
+}
+
+#secPisos{
+    padding: 4%;
+    height: 100%
+}
+
+.divPisos{
+    position: relative;
+        height: 70vh
+}
+
+#secPisos .divTeste {
+    position: absolute;
+    bottom: 0%;
+}
+
+
+#secPisos img{
+    width: 100%;
+}

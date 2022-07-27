@@ -1,0 +1,509 @@
+/*
+ _____ _____ _____ ____  _____ _____ 
+|  |  |   __|  _  |    \|   __| __  |
+|     |   __|     |  |  |   __|    -|
+|__|__|_____|__|__|____/|_____|__|__|
+
+*/
+
+/* Desktop */
+.headerSection{
+    background-image: url("../img/headerMasterchef.png");
+    background-color: black;
+    padding: 100px 0px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.lineHeaderContent{
+    font-family: 'FS Clerkenwell Regular';
+    font-size: 25px;
+    color: white;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.titleHeaderContent{
+    font-family: 'FS Clerkenwell Bold';
+    font-size: 45px;
+    color: white;
+    line-height: 1;
+}
+
+.videoHeader{
+    padding-left: 80px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .headerSection{
+        height: fit-content;
+        padding: 30px 10px 30px 10px;
+        text-align: center;
+        background-position: center; 
+    }
+
+    .lineHeaderContent{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .titleHeaderContent{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .videoHeader{
+        padding-left: 00px;
+        margin-bottom: 25px;
+    }
+}
+
+/*
+ ____  _____ _____ _____ _____ 
+|    \|     | __  |   __|   __|
+|  |  |  |  |    -|   __|__   |
+|____/|_____|__|__|_____|_____|
+                                                                                                   
+*/
+
+/* Desktop */
+.doresSection{
+    padding: 50px 0px;
+}
+
+.dorImg{
+    border-radius: 30px;
+    border-left: 10px solid red;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .dorImg{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/*
+ _____ _____ __    _____ 
+|  _  |  |  |  |  |  _  |
+|     |  |  |  |__|     |
+|__|__|_____|_____|__|__|                      
+                                      
+*/
+
+.aulasSection{
+    padding: 60px 20px;
+}
+
+.tituloAula{
+    font-family: 'FS Clerkenwell Bold';
+    font-size: 30px;
+    color: #F26833;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.tituloConteudoAula{
+    font-family: 'FS Clerkenwell Bold';
+    font-size: 22px;
+    color: black;
+    margin-bottom: 0;
+}
+
+/* Divisor */
+.hr-theme-slash-1 {
+    margin-top: -10px;
+    display: flex;
+  }
+.hr-line {
+    width: 140px;
+    position: relative;
+    margin: 13px 5px 15px 0px;
+    border-bottom: 2px solid black;
+}
+.hr-icon {
+    font-weight: 600;
+    position: relative;
+    top: 0px;
+    color: black;
+}
+  
+/* Imagens */
+.imgsAula{
+    width: 100%;
+}
+
+/* MyArrowStyle */
+.slick-prev, .slick-next {
+    z-index: 100 !important;
+}
+
+.slick-prev:before {
+    content: " \2039";
+    font-family: 'FS Clerkenwell Regular';
+    color: red;
+    font-size: 150px;
+}
+
+.slick-next:before {
+    content: " \203A";
+    font-family: 'FS Clerkenwell Regular';
+    color: red;
+    font-size: 150px;
+}
+
+.slick-prev{
+    left: 0;
+}
+.slick-next{
+    right: 10;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .aulasSection{
+        padding: 10px 40px;
+    }
+    .tituloAula{
+        margin-top: 25px;
+    }
+    .slick-prev{
+        left: -24px;
+    }
+    .slick-next{
+        right: -24px;
+    }
+    .slick-arrow{
+        height: 200px;
+        width: 40px;
+    }
+}
+
+/*
+ _____ _____ _____ _____ _____  _____ _____ __    __    
+|   __|     | __  |   __|_   _||     |  _  |  |  |  |   
+|   __|-   -|    -|__   | | |  |   --|     |  |__|  |__ 
+|__|  |_____|__|__|_____| |_|  |_____|__|__|_____|_____|
+                                                                                
+*/
+
+.ebookSection{
+    padding: 60px 0px;
+    background-color: #F5F8FA;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .imgEbook{
+        width: 100%;
+    }
+    .ebookSection{
+        padding: 40px 0px;
+    }
+}
+
+/*
+ _____ _____ _____ _____ _____ 
+| __  |     |   | |  |  |   __|
+| __ -|  |  | | | |  |  |__   |
+|_____|_____|_|___|_____|_____|
+
+*/
+
+/* Desktop */
+.bonusSection{
+    background: url("../img/madeiraTextura.png");
+    background-color: black;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    box-shadow: 0px 0px 0px 4000px rgba(0, 0, 0, 0.6) inset;
+    padding: 50px 0px 0px 0px;
+}
+
+.bordadoBonus{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 55px 110px 25px 110px;
+}
+
+.bonusRow{
+    margin-top: -30px;
+}
+
+.bonusIcon {
+    width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .bonusRow{
+        margin-top: 0px;
+    }
+    .bordadoBonus{
+        margin-top: 20px;
+        padding: 25px 25px 25px 25px;
+    }
+    .linhaBonus{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .bonusIcon {
+        width: auto;
+    }
+}
+
+
+/*
+ _____ _____ _____ _____ _____ 
+|  _  | __  |   __|     |     |
+|   __|    -|   __|   --|  |  |
+|__|  |__|__|_____|_____|_____|
+
+*/
+
+.cardPreco{
+    background-color: #BE1D37;
+    border-radius: 10px;
+    padding: 20px 40px 20px 20px;
+    width: fit-content;
+    text-align: center;
+    margin-left: -100px;
+    padding-left: 90px;
+}
+
+.cardPreco table{
+    margin: auto;
+}
+
+.preTextoPreco{
+    margin-left: -100px;
+    padding-right: 100px;
+    color: white !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .preTextoPreco{
+        margin-left: 0;
+        padding-right: 0;
+    }
+    .cardPreco{
+        width: 100%;
+        padding: 20px 0;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .tituloPreco{
+        font-size: 25px !important;
+    }
+}
+
+/*
+ _____ _____ _____ _____ _____ _____ _____ _____ 
+|   __|  _  | __  |  _  |   | |_   _|     |  _  |
+|  |  |     |    -|     | | | | | | |-   -|     |
+|_____|__|__|__|__|__|__|_|___| |_| |_____|__|__|                                                                                                            
+
+*/
+
+/* Desktop */
+.garantiaSection{
+    background-color: #1D1D1B;
+    padding: 50px 30px; 
+}
+
+.cardGarantia{
+    background-color: #000000;
+    padding: 30px 30px 30px 100px; 
+    border-radius: 15px;
+}
+.seloColuna{
+    z-index: 1;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+    .cardGarantia{
+        margin: 80px 0px 0px 0px;
+    }
+    .seloColuna{
+        text-align: center;
+    }
+    .seloColuna img{
+        margin-top: -100px;
+    }
+    .cardGarantia{
+        padding: 30px 30px 30px 30px; 
+    } 
+    .textoSeloColuna{
+        margin-top: 20px !important;
+        text-align: center;
+    }
+}
+
+/*
+ _____ _____ _____ _____ _____ ____   _____ _____ __    __    
+|   __|   __|     |     |   | |    \ |     |  _  |  |  |  |   
+|__   |   __|   --|  |  | | | |  |  ||   --|     |  |__|  |__ 
+|_____|_____|_____|_____|_|___|____/ |_____|__|__|_____|_____|
+
+*/
+
+.imgExperts{
+    width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .imgExperts{
+        padding-top: 40px;
+    }
+}
+
+/*
+ _____ _____ _____ 
+|   __|  _  |     |
+|   __|     |  |  |
+|__|  |__|__|__  _|
+               |__|
+                           
+*/
+
+.faqSection{
+    background-color: #e0e0e0;
+    padding: 30px 30px 30px 30px; 
+}
+
+.cardFAQ{
+    background-color: #ffffff;
+    padding: 30px 30px 30px 30px; 
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05); 
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/* Efeito Sanfona FAQ */
+.respostaFaq{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .cardFAQ{
+        padding: 15px 25px 15px 35px; 
+    }
+    .cardFAQ .tituloConteudoAula{
+        line-height: 1;
+    }
+    .colunaPerguntaFaq{
+        margin: unset;
+        width: 90%;
+        padding: 10px 0px;
+    }
+    .colunaBotoesFaq{
+        margin: unset;
+        width: 10%;
+        padding: 10px 0px;
+    }
+    .colunaRespostaFaq{
+        margin: unset;
+        width: 100%;
+        padding: 10px 0px;
+    }
+}
+
+/*
+ _____ _____ _____ _____ __    
+|   __|   __| __  |  _  |  |   
+|  |  |   __|    -|     |  |__ 
+|_____|_____|__|__|__|__|_____|
+                               
+*/
+
+/* Estilos das fontes */
+.titleContent{
+    font-family: 'FS Clerkenwell Regular';
+    font-size: 35px;
+    color: white;
+    line-height: 1;
+}
+
+.highContent{
+    font-family: 'FS Clerkenwell Bold';
+    font-size: 24px;
+    color: black;
+    line-height: 1;
+}
+
+.textContent{
+    font-family: 'GothamPro';
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+.titleSection{
+    font-family: 'FS Clerkenwell Bold';
+    font-size: 30px;
+    margin-bottom: 0rem;
+    color: white;
+    line-height: 1;
+}
+
+.highAulaContent{
+    font-family: 'FS Clerkenwell Bold';
+    font-size: 40px;
+    color: white;
+    line-height: 1;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .textContent{
+        font-size: 15px;
+    }
+
+    .highContent{
+        font-size: 20px;
+    }
+    
+}
+
+/* Estilos botões */
+.btnStyle1{
+    font-family: 'FS Clerkenwell Regular';
+    font-size: 21px;
+    background-color: #BE1D37;
+    color: white;
+    padding: 15px 45px;
+    border-radius: 25px;
+    line-height: 1;
+}
+.btnStyle1:hover{
+    background-color: #a11d33;
+    color: white;
+    transition: all 0.5s;
+}
+
+/*
+ _____ _____ _____ 
+|  _  |  |  |     |
+|     |    -| | | |
+|__|__|__|__|_|_|_|              
+ _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+|  _  |   __| __  |   __|     | __  |     |     |  _  |
+|   __|   __|    -|   __|  |  |    -| | | | | | |     |
+|__|  |_____|__|__|__|  |_____|__|__|_|_|_|_|_|_|__|__|
+
+*/

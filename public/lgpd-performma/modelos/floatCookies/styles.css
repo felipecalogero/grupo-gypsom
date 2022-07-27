@@ -1,0 +1,95 @@
+/*
+ _____ _       _           _ 
+|  __ \ |     | |         | |
+| |  \/ | ___ | |__   __ _| |
+| | __| |/ _ \| '_ \ / _` | |
+| |_\ \ | (_) | |_) | (_| | |
+ \____/_|\___/|_.__/ \__,_|_|
+                                               
+*/
+
+:root {
+    --cookie-background: #000000;
+    --cookie-primary: #BE1D37;
+    --cookie-secundary: yellow;
+    --cookie-text: white;
+    --cookie-fontStlye-primary: FS Clerkenwell Regular;
+    --cookie-fontStlye-secundary: FS Clerkenwell Regular;
+}
+
+/*
+ _    _                  _             
+| |  | |                (_)            
+| |  | | __ _ _ __ _ __  _ _ __   __ _ 
+| |/\| |/ _` | '__| '_ \| | '_ \ / _` |
+\  /\  / (_| | |  | | | | | | | | (_| |
+ \/  \/ \__,_|_|  |_| |_|_|_| |_|\__, |
+                                  __/ |
+                                 |___/ 
+
+*/
+
+.box-cookies {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--cookie-background);
+    position: fixed;
+    width: fit-content;
+    bottom: 20px;
+    opacity: 100%;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.66), 8px 8px 0px 0px #d7a96b; 
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.66), 8px 8px 0px 0px #d7a96b;
+    z-index: 9999;
+    max-width: 35%;
+}
+
+.box-cookies.hide {
+    display: none !important;
+}
+
+.cookie-contentText{
+    color: var(--cookie-text);
+    font-family: var(--cookie-fontStlye-secundary);
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cookie-btn{
+    border-style: none;
+    background: linear-gradient(75deg, #D7A96B, #BA8C52);
+    font-family: var(--cookie-fontStlye-secundary);
+    background-size: 400% 400%;
+    -webkit-animation: gradbow 3s ease infinite;
+    animation: gradbow 3s ease infinite;
+    color: var(--cookie-text);
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+
+.alert-link, .alert-link:hover, .privacy-notice-link, .privacy-notice-link:hover, .category-host-list-handler, .category-host-list-handler:hover{
+    color: var(--cookie-primary);
+}
+
+@-webkit-keyframes gradbow {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+}
+
+@media screen and (max-width: 728px) {
+    .box-cookies {
+        max-width: 93%;
+        bottom: 10px;
+    }
+
+    .cookie-btn{
+        width: 100%;
+    }
+}

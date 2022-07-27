@@ -1,0 +1,360 @@
+/*
+ _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+|     |  |  |   __|_   _|     |     |     |__   |   __|
+|   --|  |  |__   | | | |  |  | | | |-   -|   __|   __|
+|_____|_____|_____| |_| |_____|_|_|_|_____|_____|_____| 
+                                                                        
+*/
+
+:root {
+    --ntStyle-highlight-color: #BE1D37; /* Destaques */
+    --ntStyle-primary-color: #BE1D37; /* Destaques */
+    --ntStyle-secundary-color: #ffffff; /* Texto */ 
+    --ntStyle-offSecundary-color: rgb(156, 156, 156); /* Texto Secundario */  
+    --ntStyle-background: #131313; /* Fundo */
+}
+
+/*
+ _____ _____ _____ _____ __    
+|   __|   __| __  |  _  |  |   
+|  |  |   __|    -|     |  |__ 
+|_____|_____|__|__|__|__|_____|
+                                           
+*/
+
+body{
+    background-color: var(--ntStyle-background);
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .col-6, .col-12{
+        padding: 0;
+    }
+}
+
+/*
+ _____ _____ _____ ____  _____ _____ 
+|  |  |   __|  _  |    \|   __| __  |
+|     |   __|     |  |  |   __|    -|
+|__|__|_____|__|__|____/|_____|__|__|
+                                                   
+*/
+
+.headerSection{
+    padding-top: 20px;
+}
+
+.videoHeader iframe{
+    -webkit-box-shadow: 0px 11px 34px 7px rgba(0,0,0,0.25); 
+    box-shadow: 0px 11px 34px 7px rgba(0,0,0,0.25);
+}
+
+.videoHeader iframe{
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .headerSection{
+        padding-top: 00px;
+    }
+    .videoHeader{
+        position: fixed;
+        z-index: 1;
+        padding:0;
+    }
+    .videoHeader iframe{
+        border-radius: 0px;
+    }
+}
+
+/*
+ _____ _____ _____ _____ _____ _____ _____ __    _____ 
+|   __|  |  | __  |_   _|     |_   _|  |  |  |  |     |
+|__   |  |  | __ -| | | |-   -| | | |  |  |  |__|  |  |
+|_____|_____|_____| |_| |_____| |_| |_____|_____|_____|
+                                                                       
+*/
+
+.tagAula{
+    background-color: var(--ntStyle-primary-color);
+    color: var(--ntStyle-secundary-color);
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: fit-content;
+    font-family: 'GothamPro';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+.tituloAula{
+    color: var(--ntStyle-secundary-color);;
+    font-family: 'GothamPro';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.descAula{
+    color: var(--ntStyle-offSecundary-color);
+    font-family: 'GothamPro';
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.btnAula{
+    color: rgb(0, 0, 0);
+    font-family: 'GothamPro';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    background-color: var(--ntStyle-secundary-color);;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-style: hidden;
+    transition: all 0.2s ease-out;
+}
+
+.btnAula:hover{
+    background-color: var(--ntStyle-offSecundary-color);
+}
+
+/*
+ _____ _____ _____ _____ __    _____ _____ 
+|_   _|     |   __|   __|  |  |   __|   __|
+  | | |  |  |  |  |  |  |  |__|   __|__   |
+  |_| |_____|_____|_____|_____|_____|_____|
+                                                   
+*/
+
+.epNumbers{
+    background-color: var(--ntStyle-primary-color);;
+    padding: 3px 8px;
+    border-radius: 500px;
+    margin-right: 3px;
+}
+
+.subpartTitle{
+    color: var(--ntStyle-secundary-color);;
+    font-family: 'GothamPro';
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    border-bottom: 4px solid var(--ntStyle-primary-color);
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.tituloOutrasAulas{
+    color: var(--ntStyle-secundary-color);;
+    font-family: 'GothamPro';
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.descOutrasAulas{
+    color: var(--ntStyle-offSecundary-color);
+    font-family: 'GothamPro';
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.imgAula{
+    width: 100%; 
+    height: 115px; 
+    object-fit: cover; 
+    border-radius: 10px
+}
+
+.linhaEp{
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.linhaEp:hover{
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+@media (max-width: 768px) {
+    .imgAula{
+        height: 85px; 
+    }   
+    .linhaEp{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .linhaEp:hover{
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+/*
+ _____ __ __ _____ _____ _____ 
+|_   _|  |  |  _  |   __|   __|
+  | | |_   _|   __|   __|__   |
+  |_|   |_| |__|  |_____|_____|                         
+                                           
+*/
+
+.statusOpen{
+    padding: 0;
+}
+
+.statusOpen::after{
+    font-family: "FontAwesome";
+    content: "\f04b";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.statusLock{
+    opacity: 50%;
+    padding: 0;
+}
+
+.statusLock::after{
+    font-family: "FontAwesome";
+    content: "\f023";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+/*
+ _____ _____ ____  _____ 
+|  |  |     |    \|   __|
+|     |-   -|  |  |   __|
+|__|__|_____|____/|_____|
+                               
+*/
+
+.desktopDescText{
+    display: block;
+}
+.mobileDescText{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .desktopDescText{
+        display: none;
+    }
+    .mobileDescText{
+        display: block;
+    }
+}
+
+/*
+ _ _ _ _____ _____ _____  _____ _____ _____ ____  _____ _____ 
+| | | |  _  |     |_   _||  |  |   __|  _  |    \|   __| __  |
+| | | |     |-   -| | |  |     |   __|     |  |  |   __|    -|
+|_____|__|__|_____| |_|  |__|__|_____|__|__|____/|_____|__|__|
+
+*/
+
+.waitSection{
+    height: 50vh;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 48%, var(--ntStyle-background) 86%), url("./images/headerBackground.png");  
+    background-color: #000000; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.imgWait{
+    padding: 20px;
+    width: 90px;
+}
+
+.descWaitSection{
+    margin-top: -25vh;
+}
+
+.colunaBlock{
+    background-color: #0000005e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tituloEmBreve{
+    color: var(--ntStyle-secundary-color);;
+    font-family: 'GothamPro';
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+}
+
+.descEmBreve{
+    color: var(--ntStyle-offSecundary-color);
+    font-family: 'GothamPro';
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1;
+    text-align: center;
+}
+
+.tagEmBreve{
+    background-color: var(--ntStyle-primary-color);
+    color: var(--ntStyle-secundary-color);;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: fit-content;
+    font-family: 'GothamPro';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 15px auto;
+}
+
+@media (max-width: 768px) {
+    .waitSection{
+        height: 50vh;
+    }
+    .colunaBlock{
+        background-color: #00000000;
+        padding: 15px;
+    }
+}
+
+/*
+ _____ _____ _____ 
+|  _  |  |  |     |
+|     |    -| | | |
+|__|__|__|__|_|_|_|              
+ _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+|  _  |   __| __  |   __|     | __  |     |     |  _  |
+|   __|   __|    -|   __|  |  |    -| | | | | | |     |
+|__|  |_____|__|__|__|  |_____|__|__|_|_|_|_|_|_|__|__|
+
+*/
