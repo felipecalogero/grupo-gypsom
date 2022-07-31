@@ -27,7 +27,7 @@
 
 <body>
 
-    <section id="secPrincipal">
+    <section id="secIsolamentos">
         <img class="imagemLateral" src="assets/img/manutencao/6.png">
 
         <div class="desktop redesSociais">

@@ -99,6 +99,10 @@ $router->on('GET', '/revest', function () use ($cdn, $params) {
   require "pages/revest.php";
 });
 
+$router->on('GET', '/scrollpane', function () use ($cdn, $params) {
+  require "pages/exScrollpane.php";
+});
+
 
 /*
  _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ 
