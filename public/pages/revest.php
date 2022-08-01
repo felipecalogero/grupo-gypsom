@@ -25,7 +25,6 @@
 
     <link rel="stylesheet" href="http://www.justinaguilar.com/animations/css/animations.css">
 
-    <link rel="stylesheet" href="assets/css/scrollpane.css">
 
 
 </head>
@@ -69,7 +68,7 @@
         </div>
     </nav>
 
-    <section id="secIsolamentos" class="scr pane prt desktop" data-id="Welcome">
+    <section id="secIsolamentos" class="sections desktop">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-3 contentImage text-center">
@@ -127,7 +126,7 @@
 
                 <div class="col-12 scr prt horiz">
                     <div class="spane">
-                        <div class="col-12 contentImage text-center" style="background:#fff" data-id="Horizontal01">
+                        <div class="col-12 contentImage text-center" style="background:#fff" >
                             <div class=" row">
                                 <div class="col-4">
                                     <img src="assets/img/revest/isolamento-1.png" alt="imgIsolamento1">
@@ -139,14 +138,14 @@
                                     <img src="assets/img/revest/isolamento-3.png" alt="imgIsolamento1">
                                 </div>
                             </div>
-                            <div class="pane an" style="background:#fff" data-id="Horizontal01">
+                            <div class="pane an" style="background:#fff" >
                                 <div class="ct">
                                     <p>Isolamento térmico é a capacidade de um material em reduzir a entrada ou saída de calor de um ambiente para outro. Relevante em regiões muito quentes ou frias, o isolamento térmico bem instalado garante a eficiência energética em todo o edifício, desde o piso até o telhado, passando por paredes e fachadas.<br><br>
                                         Em regiões quentes, o isolamento mantém o calor externo ao ambiente e reduz a necessidade de ar condicionado, enquanto em regiões frias, o isolamento térmico mantém o ambiente quente e evita a necessidade de uso de aquecedor.<br><br>
                                         O isolamento térmico é, ainda, bastante utilizado para tubulações e caldeiras, evitando a perda de energia em instalações técnicas.</p><br><br>
                                 </div>
                             </div>
-                            <div class="pane an" style="background:#fff" data-id="Horizontal02">
+                            <div class="pane an" style="background:#fff" >
                                 <div class="ct">
                                     <p>Trabalhamos com:</p>
                                     <div class="row">
@@ -183,11 +182,10 @@
                 </div>
             </div> -->
         </div>
-        </div>
     </section>
 
 
-    <section id="secPisos" class="scr pane prt an" data-id="scr02">
+    <section id="secPisos" class="sections an">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -213,21 +211,36 @@
         </div>
     </section>
 
-    <section id="secPersianas" class="scr pane prt" data-id="src03">
+
+
+
+
+    <section id="secIsoPersianas" class="sections desktop">
         <div class="container">
             <div class="row">
-                <div class="col-3 contentImage text-center">
-                    <div>
-                        <img src="assets/img/revest/persiana.png" alt="imgPesiana">
+                <div class="col-12 col-md-3 contentImage text-center">
+                <img src="assets/img/revest/persiana.png" alt="imgPesiana">
+                    <div class="col-12 mobile">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="assets/img/revest/isolamento-1.png" alt="imgIsolamento1">
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/img/revest/isolamento-2.png" alt="imgIsolamento1">
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/img/revest/isolamento-3.png" alt="imgIsolamento1">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-9 contentInfos">
+                <div class="col-12 col-md-9 contentInfos">
                     <div>
-                        <h2>PERSIANAS</h2><br>
+                    <h2>PERSIANAS</h2><br>
                         <p>Encontre a persiana que se encaixa com a decoração de sua casa ou empresa, fazemos persianas personalizadas de acordo com o tamanho necessário do ambiente.</p>
                         <p>As persianas são peças importantes na decoração de espaços residenciais e empresariais, além de trazer beleza e elegância, também garante a privacidade daqueles que usam o espaço.</p><br>
                     </div>
-                    <div class="col-sm-12 divTrabalhamos">
+                    <div class="divTrabalhamos">
                         <p>Trabalhamos com:</p>
                         <div class="row">
                             <div class="col-lg-4">
@@ -276,12 +289,6 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
-    <!-- Scrollnimation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
-    <script src="assets/js/scrollpane.js"></script>
 </body>
 
 </html>
