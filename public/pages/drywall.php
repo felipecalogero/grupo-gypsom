@@ -53,13 +53,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#secIsolamentos">ISOLAMENTOS TÉRMICOS <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#secIsolamentos">DRYWALL<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#secPisos">PISOS VINÍLICOS</a>
+                        <a class="nav-link" href="#secPisos">FORROS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#secPersianas">PERSIANAS</a>
+                        <a class="nav-link" href="#secPersianas">DIVISORIAS E ISOLAMENTOS</a>
                     </li>
                 </ul>
                 <div class="my-2 my-lg-0">
@@ -95,10 +95,10 @@
                 </div>
                 <div class="col-12 col-lg-9 contentInfos">
                     <div>
-                        <h2>ISOLAMENTOS TERMICOS</h2><br>
-                        <p>Isolamento térmico é a capacidade de um material em reduzir a entrada ou saída de calor de um ambiente para outro. Relevante em regiões muito quentes ou frias, o isolamento térmico bem instalado garante a eficiência energética em todo o edifício, desde o piso até o telhado, passando por paredes e fachadas.</p>
-                        <p>Em regiões quentes, o isolamento mantém o calor externo ao ambiente e reduz a necessidade de ar condicionado, enquanto em regiões frias, o isolamento térmico mantém o ambiente quente e evita a necessidade de uso de aquecedor.</p>
-                        <p>O isolamento térmico é, ainda, bastante utilizado para tubulações e caldeiras, evitando a perda de energia em instalações técnicas</p><br>
+                        <h2>DRYWALL</h2><br>
+                        <p>Famoso e amplamente utilizado nos Estados Unidos e na Europa, o sistema drywall é uma técnica de construção a seco de paredes, forros e revestimentos, 
+                            muito utilizada na construção civil e que tem provado ser segura, eficiente, sustentável, inteligente e capaz de entregar ambientes com design diferenciado. 
+                            Além disso, também tem o poder de diminuir drasticamente os custos da obra. </p><br>
                     </div>
                     <div class="col-12 mobile">
                         <div class="slider responsive">

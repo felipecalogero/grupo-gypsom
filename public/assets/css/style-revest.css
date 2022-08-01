@@ -1,14 +1,94 @@
+/*
+_______   ____    _____   _____  _       ______
+|__   __| / __ \  / ____| / ____|| |     |  ____|
+   | |   | |  | || |  __ | |  __ | |     | |__
+   | |   | |  | || | |_ || | |_ || |     |  __|
+   | |   | |__| || |__| || |__| || |____ | |____
+   |_|    \____/  \_____| \_____||______||______|
+*/
+
+.button.is-text {
+    background-color: transparent;
+    border: 0;
+}
+
+.button-inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#menu-button {
+    width: 40px;
+    height: 40px;
+    background-color: #6710E5;
+    transition: background-color 2s ease;
+}
+
+/* Menu toggle button */
+.icon {
+    line-height: 0;
+}
+
+.menu-icon {
+    text-align: right;
+    width: 20px;
+}
+
+.menu-icon::after, .menu-icon::before {
+    background-color: #ffffff;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 27px;
+    margin: 3px 0;
+    transition-duration: 0.5s;
+}
+
+.menu-icon::before {
+    width: 20px;
+}
+
+.menu-icon::after {
+    width: 18px;
+}
+
+#menu-button:hover .menu-icon::before {
+    width: 18px;
+    transition-duration: 0.5s;
+}
+
+#menu-button:hover .menu-icon::after {
+    width: 20px;
+    transition-duration: 0.5s;
+}
+
+#menu-button.is-opened {
+    background-color: transparent;
+}
+
+#menu-button.is-opened .menu-icon::before {
+    transform: rotateZ(135deg) translate(3px, -3px);
+    width: 20px;
+}
+
+#menu-button.is-opened .menu-icon::after {
+    transform: rotateZ(-135deg) translate(3px, 3px);
+    width: 20px;
+}
+
+
+
 html {
     scroll-behavior: smooth;
 }
 
 section {
-    padding: 0% 2%;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 4%;
+    min-height: 80vh;
 }
 
 .container {
@@ -31,6 +111,14 @@ h2 {
     font-weight: 600;
 }
 
+p{
+    font-size: 22px;
+}
+
+li{
+    font-size: 20px;
+}
+
 .desktop {
     display: block;
 }
@@ -43,40 +131,37 @@ h2 {
     display: none;
 }
 
-p,
-li {
-    font-size: .8em;
-}
-/* 
-@media (max-width: 1024px) {
 
-    p,
-    li {
-        font-size: .6em;
-    }
-}
-
-@media (max-width: 1200px) {
-
-    p,
-    li {
-        font-size: .7em;
-    }
-}
-
-li {
-    font-size: 20px;
-} */
 
 .navbar {
     z-index: 999;
     position: fixed;
     width: 100%;
     background-color: #fff !important;
+    padding: 1%;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin: 0px 14px;
 }
 
 .navbar img {
     max-width: 240px;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.dropdown-menu{
+    text-align: center;
+    background: rgba(0,0,0,.9);
+    border-radius: 15px;
+}
+
+.dropdown a{
+    color: #fff;
 }
 
 .contentImage {
@@ -87,22 +172,19 @@ li {
 }
 
 .contentImage img {
-    width: 80%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin: 14px 0px;
+    max-width: 80%;
+    border-radius: 15px;
 }
 
 .contentInfos {
     padding-top: 4%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
 }
 
-
-#secIsolamentos,
-#secPersianas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#secIsolamentos{
+    margin-top: 80px;
 }
 
 .imgIsolamento {
@@ -111,9 +193,12 @@ li {
 
 #secPisos {
     padding: 8%;
+    background: #f7f7f7;
 }
 
 #secPisos img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 15px;
     width: 90%;
 }
 
@@ -122,33 +207,14 @@ li {
 }
 
 .imgFooter {
-    position: fixed;
     width: 100%;
     bottom: 0;
     z-index: 999;
 }
 
-/* @media (max-width: 1500px) {
-    p{
-        font-size: .7em;
-    }
-
-    li {
-        font-size: .6em;
-    }
-
-    .contentImage{
-        display: none;
-    }
-
-    #secIsolamentos .col-md-9{
-        min-width: 100% !important;
-    }
-}
-
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
     .desktopMenor {
-        display: block;
+        display: none;
     }
 
     .desktop {
@@ -156,6 +222,43 @@ li {
     }
 
     .mobile {
-        display: none;
+        display: block;
     }
-} */
+
+    h2{
+        font-size: 28px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    
+    li{
+        font-size: 16px;
+    }
+
+    .navbar{
+        padding: 20px;
+    }
+    
+    .slick-slide img {
+        width: 100% !important;
+    }
+    
+    .divTrabalhamos p{
+        text-align: center
+    }
+    
+    #secIsolamentos {
+        margin-top: 60px;
+    }
+    
+    #menu-button {
+        background: #000;
+        border:none;
+    }
+    
+    .menu-icon::after, .menu-icon::before {
+        background-color: red;
+    }
+}
