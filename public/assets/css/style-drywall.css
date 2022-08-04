@@ -134,9 +134,6 @@ li{
 
 
 .navbar {
-    z-index: 999;
-    position: fixed;
-    width: 100%;
     background-color: #fff !important;
     padding: 1%;
 }
@@ -180,30 +177,10 @@ li{
 
 .contentInfos {
     padding-top: 4%;
-
 }
 
-#secIsolamentos{
-    margin-top: 80px;
-}
-
-.imgIsolamento {
-    padding: 8%;
-}
-
-#secPisos {
-    padding: 8%;
+#secForros {
     background: #f5f5f5;
-}
-
-#secPisos img {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    border-radius: 15px;
-    width: 90%;
-}
-
-.rowPisos {
-    margin-top: 8%;
 }
 
 .imgFooter {
@@ -249,7 +226,7 @@ li{
         text-align: center
     }
     
-    #secIsolamentos {
+    #secDrywall {
         margin-top: 60px;
     }
     

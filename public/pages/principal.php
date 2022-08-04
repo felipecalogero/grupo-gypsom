@@ -52,7 +52,7 @@
                     </a>
                 </div>
                 <div class="col-sm-3 divTrabalho4">
-                    <a href="<?= $BASE_URL ?>/2-minds">
+                    <a href="<?= $BASE_URL ?>/2minds">
                         <div class="divTrabalho">
                             <img class="imgLogo" src="assets/img/principal/gypsom-2minds.png">
                         </div>

@@ -99,6 +99,18 @@ $router->on('GET', '/revest', function () use ($cdn, $params) {
   require "pages/revest.php";
 });
 
+$router->on('GET', '/drywall', function () use ($cdn, $params) {
+  require "pages/drywall.php";
+});
+
+$router->on('GET', '/steel-frame', function () use ($cdn, $params) {
+  require "pages/steel-frame.php";
+});
+
+// $router->on('GET', '/2minds', function () use ($cdn, $params) {
+//   require "pages/2minds.php";
+// });
+
 $router->on('GET', '/scrollpane', function () use ($cdn, $params) {
   require "pages/exScrollpane.php";
 });
@@ -116,16 +128,12 @@ $router->on('GET', '/manutencao', function () use ($cdn, $params) {
   require "pages/manutencao.php";
 });
 
-$router->on('GET', '/steel-frame', function () use ($cdn, $params) {
-    header('Location: /manutencao' . $params);
-});
-
-$router->on('GET', '/drywall', function () use ($cdn, $params) {
-    header('Location: /manutencao' . $params);
-});
-
 $router->on('GET', '/2-minds', function () use ($cdn, $params) {
     header('Location: /manutencao' . $params);
+});
+
+$router->on('GET', '/contato', function () use ($cdn, $params) {
+  header('Location: /manutencao' . $params);
 });
 
 /*

@@ -69,12 +69,12 @@
                                 <img src="assets/img/main.png" alt="Main">
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Gypsom Revest</a>
-                                <a class="dropdown-item" href="#">Gypsom Steel Frame</a>
-                                <a class="dropdown-item" href="#">Gypsom Drywall</a>
-                                <a class="dropdown-item" href="#">2MINDS</a>
+                                <a class="dropdown-item" href="<?= $BASE_URL ?>/revest">Gypsom Revest</a>
+                                <a class="dropdown-item" href="<?= $BASE_URL ?>/steel-frame">Gypsom Steel Frame</a>
+                                <a class="dropdown-item" href="<?= $BASE_URL ?>/drywall">Gypsom Drywall</a>
+                                <a class="dropdown-item" href="<?= $BASE_URL ?>/2minds">2MINDS</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Contato</a>
+                                <a class="dropdown-item" href="<?= $BASE_URL ?>/contato">Contato</a>
                             </div>
                         </li>
                     </ul>
